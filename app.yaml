@@ -1,0 +1,9 @@
+application:
+version: 1
+runtime: php
+api_version: 1
+env: flex
+
+handlers:
+- url: .*
+  script: index.html
