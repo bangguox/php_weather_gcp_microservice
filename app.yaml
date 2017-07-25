@@ -1,0 +1,12 @@
+application: instant-basis-174506
+version: 1
+runtime: php55
+api_version: 1
+
+
+handlers:
+
+- url: /(.+\.php)$
+  script: test2.php
+- url: /.*
+  script: index.html
